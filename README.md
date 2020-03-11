@@ -12,7 +12,6 @@ This is the Hackintosh EFI Folder for Dell OptiPlex 9020 Micro. The configuratio
 * **Wi-Fi & Bluetooth**: BCM94360CS2 with NGFF Adapter
 
 ## What Works
-
 * CPU Turbo Boost & Thermal Throttling
 * Integrated Graphics with acceleration
 * Daul monitor output at 2560 x 1440
@@ -21,6 +20,10 @@ This is the Hackintosh EFI Folder for Dell OptiPlex 9020 Micro. The configuratio
 * LAN & Wireless Network
 * Airdrop & Airplay
 * Sleep & Wakeup
+
+## Grub Bootloader Configurations
+* setup_var 0x263 0x03
+* setup_var 0xDA2 0x00
 
 ## BIOS Settings
 - General → Advanced Boot Options: ***uncheck***

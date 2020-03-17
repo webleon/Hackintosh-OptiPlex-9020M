@@ -23,7 +23,7 @@ This is the Hackintosh EFI Folder for Dell OptiPlex 9020 Micro. The configuratio
 
 ## Grub Bootloader Configurations
 * setup_var 0x263 0x03
-* setup_var 0xDA2 0x00
+* setup_var 0xD9F 0x00
 
 ## BIOS Settings
 - General → Advanced Boot Options: ***uncheck***

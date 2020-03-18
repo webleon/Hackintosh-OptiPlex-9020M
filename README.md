@@ -29,6 +29,6 @@ This is the Hackintosh EFI Folder for Dell OptiPlex 9020 Micro. The configuratio
 
 ## BIOS Settings via GRUB
 * Set Pre-Allocated DVMT to 128M: 
-** setup_var 0x263 0x04
+***setup_var 0x263 0x04***
 * Disable CFG lock: 
-** setup_var 0xD9F 0x00
+***setup_var 0xD9F 0x00***

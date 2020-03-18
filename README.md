@@ -21,12 +21,14 @@ This is the Hackintosh EFI Folder for Dell OptiPlex 9020 Micro. The configuratio
 * Airdrop & Airplay
 * Sleep & Wakeup
 
-## Grub Bootloader Configurations
-* setup_var 0x263 0x03
-* setup_var 0xD9F 0x00
-
 ## BIOS Settings
 - General → Advanced Boot Options: ***uncheck***
 - System Configuration → SATA Operation: ***AHCI***
 - Secure Boot → Secure Boot Enable: ***Disabled***
 - Virtualization Support → VT for Direct I/O: ***uncheck***
+
+## BIOS Settings via GRUB
+* Set Pre-Allocated DVMT to 128M: 
+** setup_var 0x263 0x04
+* Disable CFG lock: 
+** setup_var 0xD9F 0x00
